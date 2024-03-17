@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Share } from "react-native";
+import styles from "./style";
 
 export default function ResultImc(props) {
   const onShare = async () => {
@@ -19,7 +20,7 @@ export default function ResultImc(props) {
           <View />
         )}
       </View>
-      <Text style={style.information}>{props.messageResultImc}</Text>
+      <Text style={styles.information}>{props.messageResultImc}</Text>
       <Text style={styles.numberImc}>{props.resultImc}</Text>
     </View>
   );

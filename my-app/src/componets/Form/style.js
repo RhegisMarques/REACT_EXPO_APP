@@ -1,4 +1,3 @@
-
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
@@ -18,7 +17,6 @@ const styles = StyleSheet.create({
   form: {
     width: '100%',
     height: "auto",
-    alignItems: 'center',
     marginTop: 30,
     padding: 30,
   },
@@ -41,8 +39,8 @@ const styles = StyleSheet.create({
   },
 
   buttonCalculator: {
-    width: ' 90%',
-    height: 40,
+    width: '90%',
+    height: 50,
     borderRadius: 50,
     paddingTop: 14,
     paddingBottom: 14,
@@ -59,7 +57,7 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
 
-  erroMessage: {
+  errorMessage: {
     fontSize: 12,
     color: 'red',
     fontWeight: 'bold',
