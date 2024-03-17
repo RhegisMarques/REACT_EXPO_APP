@@ -6,14 +6,14 @@ const styles = StyleSheet.create({
     alignItens: "center",
     justifyContent: "center",
     padding: 10,
-
   },
 
   textTitle: {
     color: "#ff0043",
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: "bold",
-  }
+    textAlign: "center",
+  },
 });
 
 export default styles;
