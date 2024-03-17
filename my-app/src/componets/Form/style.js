@@ -5,36 +5,35 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "100%",
     justifyContent: "space-around",
-    bottom: 0,
-    backgroundColor: "#fff",
+    backgroundColor: "#000",
     alignItems: "center",
-    marginTop: 20,
-    borderTopLeftRadius: 30,
-    borderTopRightRadius: 30,
-    paddingTop: 20,
+    marginTop: 10,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+    paddingTop: 5,
   },
 
   form: {
     width: "100%",
     height: "auto",
-    marginTop: 30,
-    padding: 30,
+    padding: 10,
   },
 
   formLabel: {
     color: "#000000",
-    fontSize: 20,
+    fontSize: 25,
     paddingLeft: 10,
+    color: "white",
   },
 
   formInput: {
     width: "100%",
     height: 40,
     paddingLeft: 10,
-    margin: 12,
+    marginRight: 12,
     borderRadius: 50,
     backgroundColor: "#f6f6f6",
-    fontSize: 24,
+    fontSize: 15,
   },
 
   buttonCalculator: {

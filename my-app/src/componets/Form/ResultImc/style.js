@@ -6,19 +6,19 @@ const styles = StyleSheet.create({
     flex: 1,
     width: '100%',
     marginTop: 15,
-    paddingTop: 60,
+    paddingTop: 20,
     borderRadius: 50,
     alignItems: 'center',
   },
 
   numberImc: {    
-    fontSize: 28,
+    fontSize: 25,
     color: '#ff0034',
     fontWeight: 'bold',
   },
 
   information: {
-    fontSize: 20,
+    fontSize: 18,
     color: '#ff0034',
     fontWeight: 'bold',
   },

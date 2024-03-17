@@ -38,7 +38,7 @@ export default function Form() {
     verificationImc()
     setImc(null);
     setTextButton("Calcular");
-    setMessageImc("Calcular o peso e altura");
+    setMessageImc("Calcular o peso e altura!");
 
   }
 
