@@ -40,19 +40,19 @@ const styles = StyleSheet.create({
     paddingBottom: 14,
     marginLeft: 10,
     marginTop: 30,
-    backgroundColor: "#ff0043",
+    backgroundColor: "#990029",
     alignItems: "center",
     justifyContent: "center",
   },
 
   textButtonCalculator: {
-    fontSize: 30,
+    fontSize: 20,
     color: "#fff",
   },
 
   errorMessage: {
     fontSize: 14,
-    color: "red",
+    color: "#990029",
     fontWeight: "bold",
     paddingLeft: 10,
   },
