@@ -8,17 +8,20 @@ export default function ResultImc(props) {
       message: "Meu IMC hoje é: " + props.resultImc,
     });
   };
+  
 
   return (
-    <View style={styles.resultImc}>
+    <View style={styles.contextImc}>
       <View style={styles.boxShareButton}>
-        {props.result != null ? (
-          <TouchableOpacity onPress={onShare} style={styles.shared}>
+        {props.result != null ?
+          <TouchableOpacity
+            onPress={onShare}            
+            style={styles.shared}>
             <Text style={styles.sharedText}>Share</Text>
           </TouchableOpacity>
-        ) : (
+          :
           <View />
-        )}
+        }
       </View>
       <Text style={styles.information}>{props.messageResultImc}</Text>
       <Text style={styles.numberImc}>{props.resultImc}</Text>

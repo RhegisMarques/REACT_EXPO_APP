@@ -33,14 +33,14 @@ export default function Form() {
       setMessageImc("Seu IMC é igual:");
       setTextButton("Calcular Novamente");
       setErrorMessage(null);
-      return;
     }
-
-    verificationImc()
-    setImc(null);
-    setTextButton("Calcular");
-    setMessageImc("Calcular o peso e altura!");
-
+    else {
+      verificationImc()
+      setImc(null);
+      setTextButton("Calcular");
+      setMessageImc("Calcular o peso e altura!");
+   
+    }
   }
 
   return (
