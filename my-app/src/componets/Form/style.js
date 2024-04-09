@@ -4,11 +4,12 @@ const styles = StyleSheet.create({
   formContext: {
     flex:1,
     justifyContent: "space-around",
-    backgroundColor: "#000",
+    backgroundColor: "#000000",
     alignItems: "center",
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     paddingTop: 25,
+    
   },
 
   form: {
@@ -18,16 +19,19 @@ const styles = StyleSheet.create({
   formLabel: {
     color: "#000000",
     fontSize: 25,
-    paddingLeft: 10,
+    paddingLeft: 20,
     color: "white",
+    
   },
 
   formInput: {
-    width: "100%",
-    height: 40,
-    paddingLeft: 10,
-    marginRight: 12,
-    borderRadius: 50,
+    width: "90%",
+    height: 50,
+    paddingLeft: 20,
+    borderRadius: 20,
+    paddingTop: 14,
+    paddingBottom: 14,
+    marginLeft: 10,
     backgroundColor: "#f6f6f6",
     fontSize: 15,
   },
