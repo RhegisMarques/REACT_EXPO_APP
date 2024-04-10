@@ -8,18 +8,23 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     borderRadius: 50,
     alignItems: "center",
+    justifyContent: "center",
   },
 
   numberImc: {
     fontSize: 25,
     color: "#990029",
     fontWeight: "bold",
+    alignItems: "center",
+    justifyContent: "center",
   },
 
   information: {
     fontSize: 18,
     color: "#990029",
     fontWeight: "bold",
+    alignItems: "center",
+    justifyContent: "center",
   },
 
   boxShareButton: {
