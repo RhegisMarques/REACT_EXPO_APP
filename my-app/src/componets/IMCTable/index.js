@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 import styles from "./style";
 
-const IMCTable = () => {
+export default IMCTable = () => {
   const data = [
     { resultado: "Muito abaixo do peso", situacao: "Abaixo de 17" },
     { resultado: "Abaixo do peso", situacao: "Entre 17 e 18,49" },
@@ -27,5 +27,4 @@ const IMCTable = () => {
     </View>
   );
 };
-
 
