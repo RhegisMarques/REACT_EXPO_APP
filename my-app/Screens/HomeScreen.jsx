@@ -1,16 +1,12 @@
-import { View, Text, Image, Dimensions } from "react-native";
-import React from "react";
-
-
-import { BgImage } from "../Img";
+import { View, Text } from 'react-native'
+import React from 'react'
 
 const HomeScreen = () => {
-  const screenWidth = Math.round(Dimensions.get("window").width);
   return (
     <View>
-      <Image souce={BgImage}/>
+      <Text>HomeScreen</Text>
     </View>
-  );
-};
+  )
+}
 
-export default HomeScreen;
+export default HomeScreen
