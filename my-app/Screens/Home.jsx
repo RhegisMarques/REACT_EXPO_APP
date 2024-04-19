@@ -10,7 +10,7 @@ const Home = () => {
     <View className="flex-1 items-center justify-start">
       <Image
         source={BgImage}
-        resizeMode="contain"
+        resizeMode="cover"
         className="h-90"
         style={{ width: screenWidth }}
       />
