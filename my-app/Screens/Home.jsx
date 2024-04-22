@@ -11,10 +11,20 @@ const Home = () => {
       <Image
         source={BgImage}
         resizeMode="cover"
-        className="h-92"
+        className="h-90"
         style={{ width: screenWidth }}
       />
-      
+
+      {/* View Principal */}
+      <View className="w-full h-full bg-white rounded-tl-[90px] -mt-44 flex items-center justify-start py-6 px-6 space-y-6">
+        <Image source={Logo}
+          className="w-16 h-16"
+          resizeMode="contain"
+        
+        />
+
+        <Text className="text-xl font-bold text-gray-800">IMC Calculator!</Text>
+      </View>
     </View>
   );
 };
